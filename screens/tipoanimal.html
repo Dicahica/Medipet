@@ -11,20 +11,36 @@
     <title>Tipo de mascota</title>
   </head>
   <body>
-    <div class="">
-      <nav class=" navbar navbar-light ml-50" style="background-color: #33ACFF;  ">
-        <div class="d-flex align-content-center">
-          <img src="../src/loguito.png" >
-        </div>
-      </nav>
-    </div>
-    <h5 class="font-weight-bold col-sm-6 mt-10 pt-10">Selecciona tipo de animal:</h5>
+
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #33acff;">
+        <a class="navbar-brand pr-5" style="border-right: 1px solid #33acff;" href="nav.html"><img src="../src/loguito.png" height="45" class="d-inline-block align-top" /></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="navbar-brand" href="base.html">
+               <img src="../src/home.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                 Home
+               </a>
+           </li>
+           <li class="nav-item active">
+             <a class="navbar-brand" href="base.html">
+               <img src="../src/settings.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                 Config
+               </a>
+           </li>
+       </div>
+     </nav>
+      <h5 class="font-weight-bold m-3 ">¿Qué clase de mascota tienes?:</h5>
+
     <div class="d-flex justify-content-center flex-column bd-highlight" >
       <div class="col-sm-6">
         <div class="card border-primary mb-3 mt-10" style="width: 100%;">
           <img src="../src/compañia.jpg" class="card-img-top">
           <div class="card-body">
-              <h5 class="card-title">Animales de compañía</h5>
+              <h5 class="card-title">De compañía</h5>
           </div>
         </div>
       </div>
@@ -32,7 +48,7 @@
         <div class="card border-primary mb-3  mt-10" style="width: 100%;">
           <img src="../src/granja.jpg" class="card-img-top" >
           <div class="card-body">
-            <h5 class="card-title">Animales de granja</h5>
+            <h5 class="card-title">De granja</h5>
           </div>
         </div>
       </div>
